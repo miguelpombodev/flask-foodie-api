@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "foodieapi"
+version = "0.1.0"
+description = ""
+authors = ["Miguel Pombo <miguel.pomboshape@modec.com>"]
+readme = "README.md"
+packages = [{include = "foodieapi", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+sqlalchemy = "^2.0.23"
+pytest = "^7.4.3"
+
+[tool.poetry.scripts]
+src = "src.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
