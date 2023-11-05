@@ -1,5 +1,5 @@
 
-# Crash Guild API
+# Foodie API - a food app project
 
 This project is a case study for Flask, Poetry, SQLAlchemy usage and Python skills refinement. Some tips and hints are **very very** welcomed.
 
